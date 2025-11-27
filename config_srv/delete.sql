@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS configurations CASCADE;
+DROP TABLE IF EXISTS config_properties CASCADE;

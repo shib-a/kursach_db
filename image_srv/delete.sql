@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS image_links CASCADE;
+DROP TABLE iF EXISTS image_datas CASCADE;

@@ -1,0 +1,21 @@
+DROP TABLE IF EXISTS ticket_ratings          CASCADE;
+DROP TABLE IF EXISTS ticket_messages         CASCADE;
+DROP TABLE IF EXISTS support_tickets         CASCADE;
+DROP TABLE IF EXISTS order_items             CASCADE;
+DROP TABLE IF EXISTS orders                  CASCADE;
+DROP TABLE IF EXISTS shipping_addresses     CASCADE;
+DROP TABLE IF EXISTS cart_items              CASCADE;
+DROP TABLE IF EXISTS products                CASCADE;
+DROP TABLE IF EXISTS user_favorites          CASCADE;
+DROP TABLE IF EXISTS generation_requests     CASCADE;
+DROP TABLE IF EXISTS designs                 CASCADE;
+DROP TABLE IF EXISTS generation_themes       CASCADE;
+DROP TABLE IF EXISTS ai_models               CASCADE;
+DROP TABLE IF EXISTS user_profiles           CASCADE;
+DROP TABLE IF EXISTS countries               CASCADE;
+
+DROP TYPE IF EXISTS generation_status CASCADE;
+DROP TYPE IF EXISTS order_status CASCADE;
+DROP TYPE IF EXISTS ticket_priority CASCADE;
+DROP TYPE IF EXISTS ticket_category CASCADE;
+DROP TYPE IF EXISTS ticket_status CASCADE;
